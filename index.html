@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Random Password generator
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <section id="main">
+            <div id="container">
+                <p id="password">hcnenww08e0w</p>
+                <label for="length">Select Lenght:</label>
+                <select id="length" name="length" value="0">
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                </select>
+                <p id="button" onclick="generatePassword()">Generate</p>
+            </div>
+        </section>
+    </body>
+</html>

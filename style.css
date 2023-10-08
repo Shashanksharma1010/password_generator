@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    transition: 1s;
+}
+
+::selection {
+    background-color: navy;
+    color:white;
+}
+
+/* this color theme for security , stability and trustworthiness */
+/* pale yellow */
+/* #FBF8BE */
+/* royal blue */
+/* #234E70 */
+
+/* initial containers styling */
+/* main section start */
+#main {
+    background-color: #234E70;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #FBF8BE;
+    border-radius:5px;
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+}
+/* initial containers styling end */
+
+p {
+    width:300px;
+    background-color: white;
+    margin: 20px;
+    padding:15px;
+    border-radius: 5px;
+}
+
+select {
+    padding:10px 20px;
+}
+
+#button {
+    cursor:pointer;
+    border: 1px solid #234E70;
+
+}
+
+#button:hover {
+    background-color: #234E70;
+    color:white;
+}
+
